@@ -1,0 +1,93 @@
+/* ----------------------------- general information ----------------------------- *
+#578c32 GREEN
+#E2F4ED GREEN BG
+
+Author: Stefan Kandler, Designfrisch
+Author URI: http://www.designfrisch.de
+
+/* ----------------------------- resets ----------------------------- */
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+
+body { line-height:1; }
+ol, ul { list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
+
+:focus { outline:0; } /* remember to define focus styles! */
+ins { text-decoration:none; } /* remember to highlight inserts somehow! */
+del { text-decoration:line-through; }
+table { border-collapse:collapse; border-spacing:0; } /* tables still need 'cellspacing="0"' in the markup */
+
+/* ----------------------------- basic ----------------------------- */
+body { background:url("img/bg-wellness2.jpg") top center no-repeat fixed; font-family:Arial, Verdana, Helvetica, sans-serif; font-size:100.01%; color: #333 }
+/****alternativer bg****
+body { background:url("img/bg-blume.jpg") bottom right no-repeat fixed; font-family:Arial, Verdana, Helvetica, sans-serif; font-size:100.01%; color: #333 }
+*/
+h1, h2 { font-size:1.4em; line-height: 1.4em; font-family: Georgia, Times, "Times New Roman", serif; font-style:italic; font-weight:normal; color:#578c32; }
+h2 { font-size:1.2em; }
+h3 { font-size:.8em; color:#333; font-weight:bold; line-height:1.4em  }
+p, ol, ul { font-size:.8em; line-height:1.4em; margin-bottom:10px; }
+ul { list-style:disc; margin-left:20px; }
+ol { list-style:decimal; margin-left:20px; }
+a, a:link, a:visited { text-decoration:none; color:#578c32 }
+a:active, a:hover { text-decoration:underline }
+
+/* ----------------------------- layers Index ----------------------------- */
+#wrapperIndex { margin:5% auto 0; width:350px; }
+#wrapperIndex img.logo { padding-bottom:20px; }
+#wrapperIndex img.left { border:3px solid #eee }
+h1.index { font-size:1.4em; margin: 10px 0 }
+h2.index { font-size:.8em; font-weight:bold; font-family: Arial, Verdana, Helvetica, sans-serif; color:#333; font-style:normal }
+#wrapperIndex div.kontakt { border:1px solid #ddd; padding:5px 5px 0; }
+
+/* ----------------------------- layers ----------------------------- */
+#wrapper { width:620px; margin:0px auto 100px; }
+#header { margin-bottom:30px; padding:30px 0 0 0; text-align:center; font-size:.8em }
+#header h1.slogan { margin-top: 20px; color:#fff }
+#nav { width:200px; margin-left:-240px; font-size: .9em; float:left; overflow: hidden; padding:0px 0;  }
+#nav a { display:block;padding:8px; margin-bottom:4px; color:#333; background:url("img/bg-white.png") top left; }
+#nav a.current,
+#nav a:hover { background:#fff; text-decoration:none; color:#578c32 }
+#content { overflow: hidden; background:url("img/bg-white.png") top left; padding:10px 15px; border: 1px solid #fff; }
+#footer { position:relative; margin:-45px 0 0 630px; width:180px; font-size:.7em; color:#fff; line-height:1.4em; }
+#footer a { color:#fff; text-decoration:none }
+#footer a:hover { color:#666; text-decoration: underline }
+
+/* ----------------------------- layers ----------------------------- */
+
+.left { float:left; margin:0 15px 10px 0 }
+.right { float:right; margin:20px 0;  }
+form .last { margin-right:0; }
+.box { display:inline; width: 200px; margin:20px 5px 10px 0; float:left }
+.box2 { width: 230px }
+.map { margin:10px 0; text-align:right; }
+.map iframe { padding:1px; border:1px solid #ccc }
+.map small { font-size:.7em; }
+
+
+/* ----------------------------- Formular ----------------------------------------- /
+.formularbox { clear:left; padding:10px 0 }
+form {margin:0;}
+.feld { float:left;; margin:0 25px 10px 0; display:inline; }
+.feld label { color:#999; font-style:italic; font-weight:normal; letter-spacing: .05em; font-size:.8em; }
+.half input, .half select { width:273px; margin:4px 0; font-style:italic; letter-spacing:.1em }
+.full input, .full textarea { width:580px; margin:4px 0; font-style:italic; letter-spacing:.1em; font-size:.7em }
+.feld input, .feld textarea, .feld select { padding:4px 2px; font-family:Arial, Tahoma, Verdana;  }
+
+.feld textarea.error, .feld input.error { border-color:#f00; background:#ffe8e8 }
+
+input[type=text],
+.half select,
+.full textarea { border:1px dotted #333; background:none; color:#333; padding:5px 2px }
+
+input[type=text]:focus, 
+select:focus, 
+textarea:focus { background-color:#fff; color:#000; }
